@@ -1,9 +1,11 @@
+@use 'colors';
+
 @font-face {
   font-family: Libel;
   src: url("assets/fonts/libel.otf");
 }
 
 body {
-  background-color: #e1e1e1;
+  background-color: colors.$background_color;
   margin: 0;
 }
