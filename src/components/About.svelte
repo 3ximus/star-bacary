@@ -48,4 +48,17 @@
       }
     }
   }
+
+  @media (max-width: 800px) {
+    div.about {
+      justify-content: center;
+      flex-direction: column-reverse;
+      img {
+        height: 60vh
+      }
+      div.text {
+        max-width: 90%;
+      }
+    }
+  }
 </style>

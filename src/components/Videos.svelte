@@ -78,4 +78,17 @@
       }
     }
   }
+  @media (max-width: 800px) {
+    div.videos {
+      h1 {
+        font-size: 3em;
+      }
+      .list {
+        flex-direction: column;
+        iframe {
+          max-width: 90%;
+        }
+      }
+    }
+  }
 </style>

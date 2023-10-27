@@ -19,10 +19,14 @@
 <style lang="scss">
   @use "colors";
 
+  main {
+    overflow: hidden;
+  }
+
   #header {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
     padding: 10px;
     font-family: Libel;
@@ -49,5 +53,20 @@
     display: block;
     width: 100%;
     background-color: colors.$background_color_dark;
+  }
+
+  @media (max-width: 800px) {
+    #header {
+      font-size: 4em;
+      &.scrolled {
+        font-size: 2em;
+      }
+    }
+    video {
+      width: 200%;
+      position: relative;
+      left: -45%;
+      overflow-y: hidden;
+    }
   }
 </style>
