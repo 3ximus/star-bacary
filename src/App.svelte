@@ -1,7 +1,7 @@
 <script lang="ts">
   import About from "./components/About.svelte";
   import Videos from "./components/Videos.svelte";
-
+  import Footer from "./components/Footer.svelte";
   let Y: number;
 </script>
 
@@ -11,6 +11,7 @@
   <video src="/clip.mp4" autoplay muted loop />
   <About />
   <Videos />
+  <Footer />
 </main>
 
 <svelte:window bind:scrollY={Y} />
