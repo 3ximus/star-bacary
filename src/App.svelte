@@ -9,8 +9,8 @@
   <h1 id="header" class:scrolled={Y > 20}>STAR BACARY</h1>
   <p class="spacer" />
   <video src="/clip.mp4" autoplay muted loop />
-  <About />
   <Videos />
+  <About />
   <Footer />
 </main>
 
@@ -31,20 +31,23 @@
     text-align: center;
     margin: 0;
     transition: all 0.4s;
-    color: colors.$color_dark;
+    color: colors.$background_color;
+    background-color: colors.$background_color_dark;
     &.scrolled {
       font-size: 3em;
       letter-spacing: 20px;
-      background-color: colors.$background_color;
     }
   }
 
   p.spacer {
-    height: 125px;
+    height: 140px;
+    margin: 0;
+    background-color: colors.$background_color_dark;
   }
 
   video {
+    display: block;
     width: 100%;
-    opacity: 90%;
+    background-color: colors.$background_color_dark;
   }
 </style>
