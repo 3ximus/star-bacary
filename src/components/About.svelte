@@ -27,6 +27,9 @@
       Il a inventé le style afro-djambo et le propage à l'échelle internationale.
     </p>
   </div>
+
+  <!-- https://www.facebook.com/starbakay/ -->
+
 </div>
 
 <style lang="scss">
