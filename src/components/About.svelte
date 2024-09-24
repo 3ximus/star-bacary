@@ -29,19 +29,18 @@
   </div>
 
   <!-- https://www.facebook.com/starbakay/ -->
-
 </div>
 
 <style lang="scss">
   div.about {
     display: flex;
     align-items: center;
+    padding: 20px 50px 20px 50px;
     img {
-      height: 100vh;
-      margin-left: 60px;
+      height: 48vh;
+      margin-right: 60px;
     }
     div.text {
-      max-width: 40%;
       h1 {
         font-family: Libel;
       }
@@ -57,7 +56,7 @@
       justify-content: center;
       flex-direction: column-reverse;
       img {
-        height: 60vh
+        height: 60vh;
       }
       div.text {
         max-width: 90%;
