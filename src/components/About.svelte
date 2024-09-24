@@ -35,7 +35,7 @@
   div.about {
     display: flex;
     align-items: center;
-    padding: 20px 50px 20px 50px;
+    padding: 2% 5% 2% 5% ;
     img {
       height: 48vh;
       margin-right: 60px;
