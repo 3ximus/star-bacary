@@ -20,7 +20,7 @@
           />
         </g>
       </svg>
-      <a href="mailto:startbacary@gmail.com">startbacary@gmail.com</a>
+      <a href="mailto:starbacary@gmail.com">starbacary@gmail.com</a>
     </div>
     <div class="container">
       <svg
